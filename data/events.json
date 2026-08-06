@@ -1,0 +1,92 @@
+{
+  "05447ab6b15fe20b@si-stadium": {
+    "category": "NWSL 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-28T20:00:00-04:00",
+    "time_known": true,
+    "title": "Gotham FC vs Thorns",
+    "uid": "05447ab6b15fe20b@si-stadium",
+    "url": "https://sitickets.com/event/gothamfc-thorns"
+  },
+  "0c2001e4ef264570@si-stadium": {
+    "category": "LEAGUES CUP",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-06T19:30:00-04:00",
+    "time_known": true,
+    "title": "NYCFC vs. Santos Laguna",
+    "uid": "0c2001e4ef264570@si-stadium",
+    "url": "https://www.ticketmaster.com/new-york-city-fc-vs-club-harrison-new-jersey-08-06-2026/event/00006449E69EABF6"
+  },
+  "29e3acbb5700bbfb@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-29T19:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. Philadelphia",
+    "uid": "29e3acbb5700bbfb@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-12"
+  },
+  "824bdef85e205217@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-19T19:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. Nashville",
+    "uid": "824bdef85e205217@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-10"
+  },
+  "826c9004c8f99fcb@si-stadium": {
+    "category": "LEAGUES CUP",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-09T19:30:00-04:00",
+    "time_known": true,
+    "title": "Cruz Azul vs. NYCFC",
+    "uid": "826c9004c8f99fcb@si-stadium",
+    "url": "https://www.ticketmaster.com/new-york-city-fc-vs-cruz-harrison-new-jersey-08-09-2026/event/00006449E6A2ABFE"
+  },
+  "90d6c5bdd1524664@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-22T19:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. Chicago",
+    "uid": "90d6c5bdd1524664@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-11"
+  },
+  "9c34267849572a1c@si-stadium": {
+    "category": "NWSL 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-07T20:00:00-04:00",
+    "time_known": true,
+    "title": "Gotham FC vs San Diego Wave",
+    "uid": "9c34267849572a1c@si-stadium",
+    "url": "https://sitickets.com/event/gothamfc-wave"
+  },
+  "b66ad0947bc1060e@si-stadium": {
+    "category": "NWSL 2026",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-14T20:00:00-04:00",
+    "time_known": true,
+    "title": "Gotham FC vs Current",
+    "uid": "b66ad0947bc1060e@si-stadium",
+    "url": "https://sitickets.com/event/gothamfc-current"
+  },
+  "dad1b13395423af7@si-stadium": {
+    "category": "LEAGUES CUP",
+    "first_seen": "2026-08-06T16:07:08-04:00",
+    "last_seen": "2026-08-06T18:55:48-04:00",
+    "start": "2026-08-13T19:30:00-04:00",
+    "time_known": true,
+    "title": "NYCFC vs. Necaxa",
+    "uid": "dad1b13395423af7@si-stadium",
+    "url": "https://www.ticketmaster.com/new-york-city-fc-vs-club-harrison-new-jersey-08-13-2026/event/00006449E6A5AC08"
+  }
+}

@@ -1,0 +1,34 @@
+[project]
+name = "si-stadium-calendar"
+version = "0.1.0"
+description = "Scrape Sports Illustrated Stadium events into a published .ics feed"
+requires-python = ">=3.11"
+dependencies = []
+
+# Nothing at runtime; pytest is here so the editor's ty can resolve the test
+# imports. Needs a synced .venv: uv sync.
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "ANN", "RUF", "PL"]
+
+[tool.ruff.lint.per-file-ignores]
+# Golden tables read better aligned than wrapped.
+"tests/test_uid.py" = ["E501"]
+# Literal expected values are the point of an assertion.
+"tests/*" = ["PLR2004"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+# ty is the only type checker, so every rule is on, including ones a future ty
+# adds. A ty upgrade can therefore fail CI with no code change.
+[tool.ty.rules]
+all = "error"

@@ -1,0 +1,3 @@
+# RFC 5545 mandates CRLF. Don't normalize it, and don't flag it as
+# trailing whitespace — that invites hooks to strip it.
+*.ics -text -whitespace

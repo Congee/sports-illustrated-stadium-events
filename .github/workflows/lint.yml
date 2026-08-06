@@ -1,0 +1,22 @@
+name: Lint
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+    - uses: actions/checkout@v4
+    - uses: astral-sh/setup-uv@v5
+
+    - run: uvx ruff check
+    - run: uvx ruff format --check
+    - run: uvx --with pytest pytest
+
+    # --with pytest so ty can resolve the test imports.
+    - name: Type check (ty)
+      run: uvx --with pytest ty check

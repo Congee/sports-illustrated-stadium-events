@@ -1,0 +1,39 @@
+name: Update calendar
+
+on:
+  schedule:
+    # Mondays, 11:37 UTC. Odd minute: on-the-hour schedules are delayed most.
+    - cron: '37 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Scrape
+      # Exits nonzero if the venue page parses to nothing, so a layout change
+      # fails loudly instead of freezing the feed at its last good state.
+      env:
+        SI_STADIUM_DIR: data
+      run: python3 si_stadium_calendar.py --ics-out docs/calendar.ics
+
+    - name: Commit
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -A data docs
+        # last_seen churns every run, so there is always something to commit;
+        # the weekly commit doubles as proof the scraper still works.
+        if git diff --cached --quiet -- docs/calendar.ics; then
+          msg="Checked $(date -u +%F), no schedule changes"
+        else
+          msg="Update calendar $(date -u +%F)"
+        fi
+        git diff --cached --quiet || git commit -m "$msg"
+        git push
