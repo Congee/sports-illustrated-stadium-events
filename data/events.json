@@ -2,7 +2,7 @@
   "05447ab6b15fe20b@si-stadium": {
     "category": "NWSL 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-08-28T20:00:00-04:00",
     "time_known": true,
     "title": "Gotham FC vs Thorns",
@@ -22,7 +22,7 @@
   "29e3acbb5700bbfb@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-08-29T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. Philadelphia",
@@ -32,7 +32,7 @@
   "824bdef85e205217@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-08-19T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. Nashville",
@@ -52,17 +52,27 @@
   "90d6c5bdd1524664@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-08-22T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. Chicago",
     "uid": "90d6c5bdd1524664@si-stadium",
     "url": "https://sitickets.com/event/mls-game-11"
   },
+  "98b045335755878c@si-stadium": {
+    "category": "NWSL 2026",
+    "first_seen": "2026-08-17T07:52:31-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
+    "start": "2026-09-25T20:00:00-04:00",
+    "time_known": true,
+    "title": "Gotham FC vs Chicago Stars",
+    "uid": "98b045335755878c@si-stadium",
+    "url": "https://sitickets.com/event/gothamfc-redstars"
+  },
   "98f5b5eddf70613e@si-stadium": {
     "category": "IRON MAIDEN",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-09-06T18:00:00-04:00",
     "time_known": true,
     "title": "WORLD TOUR",
@@ -79,6 +89,16 @@
     "uid": "9c34267849572a1c@si-stadium",
     "url": "https://sitickets.com/event/gothamfc-wave"
   },
+  "a286edfd4de3cc47@si-stadium": {
+    "category": "LEAGUES CUP",
+    "first_seen": "2026-08-17T07:52:31-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
+    "start": "2026-08-26T20:30:00-04:00",
+    "time_known": true,
+    "title": "Toluca x Austin",
+    "uid": "a286edfd4de3cc47@si-stadium",
+    "url": "https://www.sportsillustratedstadium.com/events"
+  },
   "b66ad0947bc1060e@si-stadium": {
     "category": "NWSL 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
@@ -92,7 +112,7 @@
   "bf5049390c18933b@si-stadium": {
     "category": "PREMIER LACROSSE LEAGUE",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-09-20T13:00:00-04:00",
     "time_known": true,
     "title": "CHAMPIONSHIP 2026",
@@ -102,7 +122,7 @@
   "caba52a0e817a7b2@si-stadium": {
     "category": "IRON MAIDEN",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-10T08:11:21-04:00",
+    "last_seen": "2026-08-17T07:52:31-04:00",
     "start": "2026-09-05T18:00:00-04:00",
     "time_known": true,
     "title": "WORLD TOUR",
