@@ -19,6 +19,36 @@
     "uid": "0c2001e4ef264570@si-stadium",
     "url": "https://www.ticketmaster.com/new-york-city-fc-vs-club-harrison-new-jersey-08-06-2026/event/00006449E69EABF6"
   },
+  "12981d5239862ce9@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
+    "start": "2026-10-17T19:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. Toronto",
+    "uid": "12981d5239862ce9@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-15"
+  },
+  "166852ff880cfd3d@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
+    "start": "2026-10-10T19:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. San Diego",
+    "uid": "166852ff880cfd3d@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-14"
+  },
+  "19e5a0c7cf1f852d@si-stadium": {
+    "category": "FRIENDLY",
+    "first_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
+    "start": "2026-10-02T20:00:00-04:00",
+    "time_known": true,
+    "title": "Colombia v Paraguay",
+    "uid": "19e5a0c7cf1f852d@si-stadium",
+    "url": "https://www.ticketmaster.com/event/00006512873C62BB"
+  },
   "29e3acbb5700bbfb@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
@@ -32,7 +62,7 @@
   "3594308b1fa5d142@si-stadium": {
     "category": "MEXTOUR",
     "first_seen": "2026-08-24T07:56:57-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-29T20:00:00-04:00",
     "time_known": true,
     "title": "Mexico v Peru",
@@ -42,7 +72,7 @@
   "622eff35258436f9@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-24T07:56:57-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-26T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. St Louis",
@@ -82,7 +112,7 @@
   "98b045335755878c@si-stadium": {
     "category": "NWSL 2026",
     "first_seen": "2026-08-17T07:52:31-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-25T20:00:00-04:00",
     "time_known": true,
     "title": "Gotham FC vs Chicago Stars",
@@ -92,7 +122,7 @@
   "98f5b5eddf70613e@si-stadium": {
     "category": "IRON MAIDEN",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-06T18:00:00-04:00",
     "time_known": true,
     "title": "WORLD TOUR",
@@ -132,7 +162,7 @@
   "bf5049390c18933b@si-stadium": {
     "category": "PREMIER LACROSSE LEAGUE",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-20T13:00:00-04:00",
     "time_known": true,
     "title": "CHAMPIONSHIP 2026",
@@ -142,7 +172,7 @@
   "caba52a0e817a7b2@si-stadium": {
     "category": "IRON MAIDEN",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-24T07:56:57-04:00",
+    "last_seen": "2026-08-31T14:06:00-04:00",
     "start": "2026-09-05T18:00:00-04:00",
     "time_known": true,
     "title": "WORLD TOUR",
