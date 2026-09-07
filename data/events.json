@@ -22,7 +22,7 @@
   "12981d5239862ce9@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-31T14:06:00-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-10-17T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. Toronto",
@@ -32,7 +32,7 @@
   "166852ff880cfd3d@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-31T14:06:00-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-10-10T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. San Diego",
@@ -42,7 +42,7 @@
   "19e5a0c7cf1f852d@si-stadium": {
     "category": "FRIENDLY",
     "first_seen": "2026-08-31T14:06:00-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-10-02T20:00:00-04:00",
     "time_known": true,
     "title": "Colombia v Paraguay",
@@ -62,7 +62,7 @@
   "3594308b1fa5d142@si-stadium": {
     "category": "MEXTOUR",
     "first_seen": "2026-08-24T07:56:57-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-09-29T20:00:00-04:00",
     "time_known": true,
     "title": "Mexico v Peru",
@@ -72,12 +72,22 @@
   "622eff35258436f9@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-24T07:56:57-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-09-26T19:30:00-04:00",
     "time_known": true,
     "title": "New York vs. St Louis",
     "uid": "622eff35258436f9@si-stadium",
     "url": "https://sitickets.com/event/mls-game-13"
+  },
+  "74afabeda243f5eb@si-stadium": {
+    "category": "MLS 2026",
+    "first_seen": "2026-09-07T12:37:39-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
+    "start": "2026-10-24T16:30:00-04:00",
+    "time_known": true,
+    "title": "New York vs. Miami",
+    "uid": "74afabeda243f5eb@si-stadium",
+    "url": "https://sitickets.com/event/mls-game-16"
   },
   "824bdef85e205217@si-stadium": {
     "category": "MLS 2026",
@@ -112,7 +122,7 @@
   "98b045335755878c@si-stadium": {
     "category": "NWSL 2026",
     "first_seen": "2026-08-17T07:52:31-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-09-25T20:00:00-04:00",
     "time_known": true,
     "title": "Gotham FC vs Chicago Stars",
@@ -159,10 +169,20 @@
     "uid": "b66ad0947bc1060e@si-stadium",
     "url": "https://sitickets.com/event/gothamfc-current"
   },
+  "b9e7061e5a9638cb@si-stadium": {
+    "category": "USA Rugby International Series",
+    "first_seen": "2026-09-07T12:37:39-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
+    "start": "2026-10-30T17:15:00-04:00",
+    "time_known": true,
+    "title": "WXV Series 2026 Rugby",
+    "uid": "b9e7061e5a9638cb@si-stadium",
+    "url": "https://sitickets.com/event/usa-rugby-doubleheader-2"
+  },
   "bf5049390c18933b@si-stadium": {
     "category": "PREMIER LACROSSE LEAGUE",
     "first_seen": "2026-08-10T08:11:21-04:00",
-    "last_seen": "2026-08-31T14:06:00-04:00",
+    "last_seen": "2026-09-07T12:37:39-04:00",
     "start": "2026-09-20T13:00:00-04:00",
     "time_known": true,
     "title": "CHAMPIONSHIP 2026",
