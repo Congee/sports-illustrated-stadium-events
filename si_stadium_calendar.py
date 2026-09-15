@@ -13,11 +13,12 @@ import json
 import os
 import re
 import sys
-from collections.abc import Mapping, Sequence
+from collections.abc import Iterator, Mapping, Sequence
 from dataclasses import dataclass, replace
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
-from typing import Any, Final, NamedTuple, TypedDict
+from typing import Any, Final, NamedTuple, TypedDict, cast
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -171,7 +172,7 @@ class State:
     def load(cls, path: Path) -> State:
         if not path.exists():
             return cls(path=path, events={})
-        raw: dict[str, Record] = json.loads(path.read_text())
+        raw = cast(dict[str, Record], json.loads(path.read_text()))
         return cls(path=path, events={k: Event.from_json(v) for k, v in raw.items()})
 
     def save(self) -> None:
@@ -246,6 +247,11 @@ _WHEN = re.compile(r'class="heading-21"[^>]*>(.*?)</h5>', re.S)
 _TITLE = re.compile(r'class="heading-22"[^>]*>(.*?)</h3>', re.S)
 _CATEGORY = re.compile(r'class="heading-events-main"[^>]*>(.*?)</h1>', re.S)
 _LINK = re.compile(r'href="(https?://[^"]*(?:ticketmaster|sitickets)[^"]*)"')
+# The anchor, not the <link rel="prerender"> beside it.
+_NEXT_PAGE = re.compile(r'<a\b[^>]*\bhref="([^"]+)"[^>]*\bclass="[^"]*w-pagination-next')
+
+# Only so a malformed next link cannot spin.
+MAX_PAGES: Final = 20
 
 _WHEN_TEXT = re.compile(
     r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(\d{4})"
@@ -258,7 +264,7 @@ _ENTITIES: Final = (("&amp;", "&"), ("&nbsp;", " "), ("&#x27;", "'"), ("&quot;",
 def fetch(url: str, timeout: int = 30) -> str:
     headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
     with urlopen(Request(url, headers=headers), timeout=timeout) as response:
-        body: bytes = response.read()
+        body = cast(bytes, response.read())
     return body.decode("utf-8", "replace")
 
 
@@ -321,6 +327,21 @@ def scrape_venue(html: str) -> list[Listing]:
     return listings
 
 
+def venue_pages(url: str) -> Iterator[str]:
+    """Yield each page of the paginated collection list, following 'Next'."""
+    seen: set[str] = set()
+    for _ in range(MAX_PAGES):
+        if url in seen:
+            return
+        seen.add(url)
+        html = fetch(url)
+        yield html
+        match = _NEXT_PAGE.search(html)
+        if not match:
+            return
+        url = urljoin(url, match.group(1).replace("&amp;", "&"))
+
+
 def scrape_ticketmaster(api_key: str) -> list[Listing]:
     """Look further ahead than the venue page's rolling window."""
     url = (
@@ -336,6 +357,7 @@ def scrape_ticketmaster(api_key: str) -> list[Listing]:
 
     listings: list[Listing] = []
     for event in payload.get("_embedded", {}).get("events", []):
+        # status.code "canceled" -> STATUS:CANCELLED; venue-page absence never is.
         dates = event.get("dates", {}).get("start", {})
         local_date = dates.get("localDate")
         if not local_date:
@@ -569,8 +591,12 @@ def parse_args(argv: Sequence[str] | None = None) -> Options:
 
 def collect(tm_key: str | None) -> list[Listing]:
     print(f"Fetching {EVENTS_URL} ...")
-    listings = scrape_venue(fetch(EVENTS_URL))
-    print(f"  venue page: {len(listings)} events")
+    listings: list[Listing] = []
+    pages = 0
+    for html in venue_pages(EVENTS_URL):
+        pages += 1
+        listings += scrape_venue(html)
+    print(f"  venue page: {len(listings)} events across {pages} page(s)")
     if tm_key:
         extra = scrape_ticketmaster(tm_key)
         print(f"  ticketmaster: {len(extra)} events")
