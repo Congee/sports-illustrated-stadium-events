@@ -72,7 +72,7 @@
   "3996b8f904f27fb1@si-stadium": {
     "category": "NWSL 2026",
     "first_seen": "2026-09-21T13:09:41-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2026-11-01T17:00:00-05:00",
     "time_known": true,
     "title": "Gotham FC vs Utah Royals",
@@ -92,7 +92,7 @@
   "74afabeda243f5eb@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-09-07T12:37:39-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2026-10-24T16:30:00-04:00",
     "time_known": true,
     "title": "New York vs. Miami",
@@ -122,7 +122,7 @@
   "90a69e4ff379f1c3@si-stadium": {
     "category": "CLUB America",
     "first_seen": "2026-10-12T16:24:09-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2026-11-14T19:30:00-05:00",
     "time_known": true,
     "title": "Red Bulls x Club America",
@@ -162,7 +162,7 @@
   "992a11324eea9409@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-09-21T13:09:41-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2026-11-07T16:00:00-05:00",
     "time_known": true,
     "title": "New York vs. Atlanta",
@@ -192,7 +192,7 @@
   "a4ffd932aef5dddc@si-stadium": {
     "category": "HSBC RUGBY SVNS 2027",
     "first_seen": "2026-09-28T14:42:08-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2027-03-13T22:00:00-05:00",
     "time_known": true,
     "title": "HSBC Rugby SVNS",
@@ -212,7 +212,7 @@
   "b9e7061e5a9638cb@si-stadium": {
     "category": "USA Rugby International Series",
     "first_seen": "2026-09-07T12:37:39-04:00",
-    "last_seen": "2026-10-12T16:24:09-04:00",
+    "last_seen": "2026-10-19T13:42:31-04:00",
     "start": "2026-10-30T17:15:00-04:00",
     "time_known": true,
     "title": "WXV Series 2026 Rugby",
