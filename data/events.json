@@ -49,6 +49,16 @@
     "uid": "19e5a0c7cf1f852d@si-stadium",
     "url": "https://www.ticketmaster.com/event/00006512873C62BB"
   },
+  "1df6e2017181887c@si-stadium": {
+    "category": "NWSL 2026 Playoff",
+    "first_seen": "2026-11-02T15:51:35-05:00",
+    "last_seen": "2026-11-02T15:51:35-05:00",
+    "start": "2026-11-08T12:30:00-05:00",
+    "time_known": true,
+    "title": "Gotham FC vs Seattle Reign",
+    "uid": "1df6e2017181887c@si-stadium",
+    "url": "https://www.sitickets.com/event/2026-playoff-match-1"
+  },
   "29e3acbb5700bbfb@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-08-06T16:07:08-04:00",
@@ -122,7 +132,7 @@
   "90a69e4ff379f1c3@si-stadium": {
     "category": "CLUB America",
     "first_seen": "2026-10-12T16:24:09-04:00",
-    "last_seen": "2026-10-26T13:35:05-04:00",
+    "last_seen": "2026-11-02T15:51:35-05:00",
     "start": "2026-11-14T19:30:00-05:00",
     "time_known": true,
     "title": "Red Bulls x Club America",
@@ -162,7 +172,7 @@
   "992a11324eea9409@si-stadium": {
     "category": "MLS 2026",
     "first_seen": "2026-09-21T13:09:41-04:00",
-    "last_seen": "2026-10-26T13:35:05-04:00",
+    "last_seen": "2026-11-02T15:51:35-05:00",
     "start": "2026-11-07T16:00:00-05:00",
     "time_known": true,
     "title": "New York vs. Atlanta",
@@ -192,7 +202,7 @@
   "a4ffd932aef5dddc@si-stadium": {
     "category": "HSBC RUGBY SVNS 2027",
     "first_seen": "2026-09-28T14:42:08-04:00",
-    "last_seen": "2026-10-26T13:35:05-04:00",
+    "last_seen": "2026-11-02T15:51:35-05:00",
     "start": "2027-03-13T22:00:00-05:00",
     "time_known": true,
     "title": "HSBC Rugby SVNS",
