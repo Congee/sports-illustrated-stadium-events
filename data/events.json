@@ -129,10 +129,20 @@
     "uid": "826c9004c8f99fcb@si-stadium",
     "url": "https://www.ticketmaster.com/new-york-city-fc-vs-cruz-harrison-new-jersey-08-09-2026/event/00006449E6A2ABFE"
   },
+  "827381be31dfddd0@si-stadium": {
+    "category": "HSBC RUGBY SVNS 2027",
+    "first_seen": "2026-11-09T16:36:45-05:00",
+    "last_seen": "2026-11-09T16:36:45-05:00",
+    "start": "2027-03-14T10:00:00-04:00",
+    "time_known": true,
+    "title": "HSBC Rugby SVNS",
+    "uid": "827381be31dfddd0@si-stadium",
+    "url": "https://www.sitickets.com/event/hsbc-svns-new-york-sunday"
+  },
   "90a69e4ff379f1c3@si-stadium": {
     "category": "CLUB America",
     "first_seen": "2026-10-12T16:24:09-04:00",
-    "last_seen": "2026-11-02T15:51:35-05:00",
+    "last_seen": "2026-11-09T16:36:45-05:00",
     "start": "2026-11-14T19:30:00-05:00",
     "time_known": true,
     "title": "Red Bulls x Club America",
@@ -202,12 +212,12 @@
   "a4ffd932aef5dddc@si-stadium": {
     "category": "HSBC RUGBY SVNS 2027",
     "first_seen": "2026-09-28T14:42:08-04:00",
-    "last_seen": "2026-11-02T15:51:35-05:00",
+    "last_seen": "2026-11-09T16:36:45-05:00",
     "start": "2027-03-13T22:00:00-05:00",
     "time_known": true,
     "title": "HSBC Rugby SVNS",
     "uid": "a4ffd932aef5dddc@si-stadium",
-    "url": "https://www.sitickets.com/event/hsbc-svns-new-york-2-day-pass?popup=false&amp;quantity=2&amp;sort=priceAsc"
+    "url": "https://www.sitickets.com/event/hsbc-svns-new-york-saturday"
   },
   "b66ad0947bc1060e@si-stadium": {
     "category": "NWSL 2026",
